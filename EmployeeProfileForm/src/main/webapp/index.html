@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Profile Form</title>
+</head>
+<body>
+    <h2>Employee Profile Form</h2>
+
+    <form action="employee" method="post">
+        Employee Name: <input type="text" name="name" required><br><br>
+
+        Employee ID: <input type="text" name="id" required><br><br>
+
+        Department:
+        <select name="department">
+            <option>Computer Science</option>
+            <option>Information Science</option>
+            <option>Electronics</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+        </select><br><br>
+
+        Designation: <input type="text" name="designation" required><br><br>
+
+        Date of Joining: <input type="date" name="doj" required><br><br>
+
+        Annual Salary: <input type="number" name="salary" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
